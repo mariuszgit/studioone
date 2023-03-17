@@ -1,0 +1,19 @@
+.contact-bar {
+    padding: 1rem 0;
+    &__item {
+        align-items: center;
+        display: flex;
+        // justify-content: flex-start;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    &__image {
+        opacity: 50%;
+        margin-right: $gutter;
+        // margin-left: $gutter;
+        width: 30px;
+    }
+    a {
+        display: block;
+    }
+}

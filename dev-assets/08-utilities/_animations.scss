@@ -1,0 +1,27 @@
+.u-hover-animation {
+    color: $gray-dark;
+
+    &:hover {
+        position: relative;
+        color: rgba($color: $accent-color, $alpha: 1);
+        text-decoration: none;
+            transition: color .3s;
+    }
+
+    
+
+    &:hover span:after {
+        content: "";
+        background-color: rgba($color: $white, $alpha: .8);
+        display: block;
+        // border-radius: 1.5px;
+        // height: 3px;
+        // width: 60px;
+        position: absolute;
+        bottom: 5px;
+        // left: calc(50% - 30px);
+        @include large-up {
+            background-color: rgba($color: $accent-color, $alpha: 1);
+        }
+    }
+}

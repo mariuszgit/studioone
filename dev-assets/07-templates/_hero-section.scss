@@ -1,0 +1,11 @@
+.t-hero-section {
+    background: url(/images/home1.png) center;
+    background-size: cover;
+    padding: $grid-base * 15 $grid-base * 5;
+
+    &__text {
+        @include medium-up {
+            max-width: 50%;
+        }
+    }
+}

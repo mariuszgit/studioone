@@ -1,0 +1,25 @@
+.c-icon-box {
+    text-align: center;
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        height: $grid-base * 6; // biggest icon height
+        align-items: center;
+        margin-bottom: $grid-base * 2;
+        overflow: hidden;
+        border-radius: 100px;
+        width: 120px;
+        height: 120px;
+    }
+
+    &__icon {
+    }
+
+    &__text {
+        font-size: $font-size-4;
+        font-weight: 300;
+        margin-top: $grid-base * 1.5;
+    }
+}
+

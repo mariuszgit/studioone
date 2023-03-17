@@ -1,0 +1,16 @@
+.t-site-header {
+    align-items: center;
+    display: flex;
+    gap: $grid-base * 5;
+    position: relative; // to position nav when device is mobile
+    min-height: $grid-base * 10;
+    &__logo {
+    }
+
+    &__image {
+        display: block;
+    }
+}
+
+
+

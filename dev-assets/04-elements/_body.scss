@@ -1,0 +1,12 @@
+html {
+    max-width: 1920px;
+}
+
+body {
+    background-color: $white;
+    color: $accent-black;
+    font-family: 'Inter', 'sans-serif';
+    font-size: $font-size-4;
+    margin: 0;
+    padding: 0;
+}
