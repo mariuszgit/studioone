@@ -12,6 +12,7 @@
         height: $grid-base * 60;
         background-position: center;
         background-size: cover;
+        background-color: $gray-light;
         margin-bottom: $grid-base * 3;
 
         @include large-up {
@@ -19,15 +20,15 @@
         }
 
         &--one {
-            background-image: url(/images/home2.png);
+            background-image: url(../images/home2.png);
         }
 
         &--two {
-            background-image: url(/images/home3.png);
+            background-image: url(../images/home3.png);
         }
 
         &--three {
-            background-image: url(/images/home4.png);
+            background-image: url(../images/home4.png);
         }
     }
 

@@ -22,7 +22,7 @@
         display: none;
 
         @include medium-up {
-            background: url(/images/man-in-glasses.jpg) center;
+            background: $gray-light url(../images/man-in-glasses.jpg) center;
             background-size: cover;
             display: block;
             height: 100%;
