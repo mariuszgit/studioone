@@ -592,7 +592,7 @@ img {
 }
 
 .t-about-us {
-  background: url(/images/team.jpg) center;
+  background: #f2f2f2 url(../images/team.jpg) center;
   background-size: cover;
   padding: 150px 50px;
   margin-bottom: 200px;

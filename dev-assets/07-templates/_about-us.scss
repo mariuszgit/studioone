@@ -1,5 +1,5 @@
 .t-about-us {
-    background: url(/images/team.jpg) center; 
+    background: $gray-light url(../images/team.jpg) center; 
     background-size: cover;
     padding: $grid-base * 15 $grid-base * 5;
     margin-bottom: $grid-base * 20;
