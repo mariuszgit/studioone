@@ -1,0 +1,13 @@
+.c-big-label {
+    font-family: 'Playfair display';
+    font-style: italic;
+    letter-spacing: 25px;
+    line-height: 150px;
+    font-size: 150px;
+    color: $gray-light;
+    font-weight: 900;
+    margin-bottom: $grid-base * 2;
+    -webkit-text-stroke: .5px $gray-light;
+    // text-stroke: .5px $gray-light;
+    z-index: -1;
+}

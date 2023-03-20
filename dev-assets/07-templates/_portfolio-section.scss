@@ -1,0 +1,48 @@
+.t-portfolio-section {
+    margin-bottom: $grid-base * 20;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: $grid-base * 5;
+    }
+
+    &__item {
+        height: $grid-base * 60;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: $grid-base * 3;
+
+        @include large-up {
+            margin-bottom: 0;
+        }
+
+        &--one {
+            background-image: url(/images/home2.png);
+        }
+
+        &--two {
+            background-image: url(/images/home3.png);
+        }
+
+        &--three {
+            background-image: url(/images/home4.png);
+        }
+    }
+
+    &__first-button {
+        display: none;
+
+        @include medium-up {
+            display: inline-flex;
+        }
+    }
+
+    &__second-button {
+        
+        @include medium-up {
+            display: none;
+        }
+    }
+}

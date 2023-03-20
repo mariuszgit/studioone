@@ -1,56 +1,14 @@
-.about-us {
-    padding: 6rem 0;
+.t-about-us {
+    background: url(/images/team.jpg) center; 
+    background-size: cover;
+    padding: $grid-base * 15 $grid-base * 5;
+    margin-bottom: $grid-base * 20;
 
-    h2 {
-        // background: -webkit-linear-gradient(45deg, $accent-color, $gray-dark);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
+    @include medium-up {
+        padding: $grid-base * 15 $grid-base * 10;
     }
 
-    &__left {
-        // transform: translate(3 * $grid-base);
-        display: none;
-        @include medium-up {
-            display: block;
-            // margin-right: -3 * $grid-base;
-        }
+    @include large-up {
+        padding: $grid-base * 15 $grid-base * 15;
     }
-    &__right {
-        display: flex;
-        align-items: center;
-        // margin-left: -3 * $grid-base;
-
-        // transform: translate(-3 * $grid-base);
-    }
-
-    &__text {
-        background: #fff;        
-        padding: 2rem;
-        width: auto;
-        margin-right: -6 * $grid-base;
-        @include medium-up {
-            // box-shadow: rgba($color: $gray-light, $alpha: .2) 0px 25px 30px;
-        }
-    }
-
-    .material-brands {
-        display: none;
-        @include medium-up {
-            display: flex;
-            justify-content: space-between;
-            padding: 2rem 0 0 ;
-        }
-        img {
-            width: 110px;
-            opacity: 50%;
-        }
-        
-        li {
-            display: inline-block;
-            list-style-type: none;
-        }
-
-    }
-
-
 }

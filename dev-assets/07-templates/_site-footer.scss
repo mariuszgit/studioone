@@ -1,0 +1,82 @@
+.t-site-footer {
+    
+    &__inner {
+        background-color: $gray-light;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $grid-base * 3;  
+        padding-bottom: $grid-base * 3;      
+
+        @include large-up {
+            flex-direction: row;
+            gap: $grid-base * 8;
+            margin-right: $grid-base * 10;
+            padding-bottom: 0;
+        }
+    }
+
+    &__logo {
+        background-color: $accent-black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+        margin-top: -75px; //height of logo
+
+        @include large-up {
+            margin-top: 0;
+        }
+    }
+
+    &__list {
+        margin: 0;
+        list-style-type: none;
+
+        @include large-up {
+            display: flex;
+            justify-content: flex-start;
+            gap: $grid-base * 3;
+        }
+    }
+    
+    &__link {
+        color: $gray;
+        display: block;
+        font-size: $font-size-4;
+        font-weight: 600;
+        line-height: $grid-base * 6;
+        text-align: center;
+        transition: all .15s ease-in-out;
+        line-height: $grid-base * 6;
+
+        &:hover {
+            color: $accent-color;
+            text-decoration: none;
+        }
+
+        @include large-up {
+            line-height: $grid-base * 12;
+        }
+    }
+
+    &__item {
+
+        &--active {
+            display: none;
+        }
+    }
+
+    // &__image {
+    //     height: 20px;
+    // }
+
+    &__button {
+        
+        @include large-up {
+            margin-left: auto;
+            margin-right: $grid-base * -10;
+        }
+    }
+}

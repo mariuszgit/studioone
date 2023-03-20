@@ -1,0 +1,29 @@
+.c-pagination {
+    display: none;
+    position: absolute;
+    left: $grid-base * -6;
+    bottom: 0;
+
+    @include medium-up {
+        display: flex;
+    }
+
+    &__item {
+        align-items: center;
+        background-color: $white;
+        display: flex;
+        height: $grid-base * 6;
+        justify-content: center;
+        width: $grid-base * 6;
+        transition: all .15s ease-in-out;
+
+        &--active {
+            background-color: $accent-color!important;
+            // color: $white;
+        }
+
+        &:hover {
+            background-color: $gray-light;
+        }
+    }
+}

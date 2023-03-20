@@ -3,7 +3,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,11 +23,17 @@
 
             <nav class="c-nav">
                 <ul class="c-nav__list">
-                    <li class="c-nav__item"><a href="" class="c-nav__link">Strona&nbsp;główna</a></li>
+                    <li class="c-nav__item c-nav__item--active"><a href="" class="c-nav__link">Strona&nbsp;główna</a></li>
                     <li class="c-nav__item"><a href="" class="c-nav__link">Realizacje</a></li>
                     <li class="c-nav__item"><a href="" class="c-nav__link">O nas</a></li>
                     <li class="c-nav__item"><a href="" class="c-nav__link">Kontakt</a></li>
                 </ul>
+
+                <div class="c-nav__hamburger">
+                    <div class="c-nav__hamburger-box">
+                        <div class="c-nav__hamburger-inner"></div>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -35,17 +41,119 @@
             <h1 class="c-heading c-heading--level1 u-white">Osiedle Nowiny</h1>
 
             <p class="t-hero-section__text u-white u-mb2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quasi unde harum dignissimos aliquam natus porro dicta veritatis facere molestias!
+                Osiedle Nowiny to malownicza enklawa spokoju i zieleni, składająca się z eleganckich domów jednorodzinnych z ogrodami. Każdy dom został zaprojektowany z myślą o wygodzie i funkcjonalności
             </p>
 
             <a href="#" class="c-btn c-btn--primary">
                 Zobacz nasze realizacje
                 <img src="./images/arrow.svg" alt="">
             </a>
+
+            <div class="c-pagination">
+                <a href="" class="c-pagination__item c-pagination__item--active">
+                    1
+                </a>
+                <a href="" class="c-pagination__item">
+                    2
+                </a>
+                <a href="" class="c-pagination__item">
+                    3
+                </a>
+                <a href="" class="c-pagination__item">
+                    4
+                </a>
+            </div>
         </div>
+
+        <section class="t-welcome-section">
+            <div class="o-row">
+                <div class="o-col o-col--md75">
+                    <div class="t-welcome-section__text">
+                        <h2 class="c-heading c-heading--level2">
+                            Witaj w<br />Studio&nbsp;One
+                        </h2>
+    
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit maxime facere! Architecto consequuntur sit perspiciatis. Repellat possimus, qui voluptas quo illo maxime ut blanditiis!
+                        </p>
+    
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit maxime facere! Architecto consequuntur sit perspiciatis. Repellat possimus, qui voluptas quo illo maxime ut blanditiis!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="o-col o-col--md25 t-welcome-section__picture">
+                    <div class="t-welcome-section__picture"></div>
+                </div>
+            </div>
+            <div class="c-big-label t-welcome-section__label">Witaj</div>
+        </section>
+
+        <section class="t-about-us">
+            <h2 class="c-heading c-heading--level2 u-white">Mały zespół,<br /> wielkie możliwości</h2>
+
+            <a href="#" class="c-btn c-btn--primary">
+                O nas
+                <img src="./images/arrow.svg" alt="">
+            </a>
+        </section>
+
+        <section class="t-portfolio-section">
+            <header class="t-portfolio-section__header">
+                <h2 class="c-heading c-heading--level2">Ostatnie realizacje</h2>
+
+                <a href="#" class="c-btn c-btn--primary t-portfolio-section__first-button">
+                    Zobacz&nbsp;wszystkie
+                    <img src="./images/arrow.svg" alt="">
+                </a>
+            </header>
+
+            <div class="o-row">
+                <div class="o-col o-col--md33">
+                    <div class="t-portfolio-section__item t-portfolio-section__item--one">Lorem</div>
+                </div>
+
+                <div class="o-col o-col--md33">
+                    <div class="t-portfolio-section__item t-portfolio-section__item--two">Lorem</div>
+                </div>
+
+                <div class="o-col o-col--md33">
+                    <div class="t-portfolio-section__item t-portfolio-section__item--three">Lorem</div>
+                </div>
+            </div>
+
+            <div class="o-row">
+                <div class="o-col u-text-center">
+                    <a href="#" class="c-btn c-btn--primary t-portfolio-section__second-button">
+                        Zobacz&nbsp;wszystkie
+                        <img src="./images/arrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="o-container">
-        
-    </div>
+
+    <footer class="t-site-footer">
+        <div class="o-container">
+            <div class="t-site-footer__inner">
+                <a href="#" class="t-site-footer__logo">
+                    <img src="./images/logo-sm.svg" alt="Studio One small logo" class="t-site-footer__image">
+                </a>
+
+                <ul class="t-site-footer__list">
+                    <li class="t-site-footer__item t-site-footer__item--active"><a href="" class="t-site-footer__link">Strona&nbsp;główna</a></li>
+                    <li class="t-site-footer__item"><a href="" class="t-site-footer__link">Realizacje</a></li>
+                    <li class="t-site-footer__item"><a href="" class="t-site-footer__link">O nas</a></li>
+                    <li class="t-site-footer__item"><a href="" class="t-site-footer__link">Kontakt</a></li>
+                </ul>
+
+                <a href="#" class="c-btn c-btn--primary t-site-footer__button">
+                    Zobacz nasze realizacje
+                    <img src="./images/arrow.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

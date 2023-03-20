@@ -23,8 +23,8 @@
     }
     &--md33 {
         @include medium-up {
-            flex: 0 0 33,3333%;
-            max-width: 33,3333%; //dla ie10 i ie11
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%; //dla ie10 i ie11
         }
     }
     &--lg50 {

@@ -1,9 +1,14 @@
 .t-site-header {
     align-items: center;
     display: flex;
-    gap: $grid-base * 5;
+    gap: $grid-base * 8;
+    justify-content: space-between;
     position: relative; // to position nav when device is mobile
     min-height: $grid-base * 10;
+
+    @include medium-up {
+        justify-content: flex-start;
+    }
     &__logo {
     }
 

@@ -2,6 +2,16 @@
     background: url(/images/home1.png) center;
     background-size: cover;
     padding: $grid-base * 15 $grid-base * 5;
+    position: relative;
+    margin-bottom: $grid-base * 20;
+
+    @include medium-up {
+        padding: $grid-base * 20 $grid-base * 10;
+    }
+
+    @include large-up {
+        padding: $grid-base * 20 $grid-base * 15;
+    }
 
     &__text {
         @include medium-up {

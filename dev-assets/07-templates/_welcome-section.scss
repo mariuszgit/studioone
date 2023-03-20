@@ -1,0 +1,38 @@
+.t-welcome-section {
+    position: relative; // to position big label
+    margin-bottom: $grid-base * 20;
+    &__text {
+        padding: 0 $grid-base * 5 0 $grid-base * 5;
+        
+        @include medium-up {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 $grid-base * 10 0 $grid-base * 10;
+            height: 100%;
+        }
+
+        @include large-up {
+            padding: 0 $grid-base * 15 0 $grid-base * 15;
+        }
+
+    }
+
+    &__picture {
+        display: none;
+
+        @include medium-up {
+            background: url(/images/man-in-glasses.jpg) center;
+            background-size: cover;
+            display: block;
+            height: 100%;
+            min-height: 500px;
+        }
+    }
+
+    &__label {
+        position: absolute;
+        left: 0;
+        top: -75px;
+    }
+}
